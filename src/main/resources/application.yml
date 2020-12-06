@@ -1,2 +1,8 @@
 server:
   port: 8082
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:8080/xxl-job-admin
+    executor:
+      appname: xxl-job-executor-sample
